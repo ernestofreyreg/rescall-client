@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "classnames": "^2.2.5",
     "next": "^3.2.2",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",
