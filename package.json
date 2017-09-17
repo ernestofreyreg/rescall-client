@@ -1,0 +1,23 @@
+{
+  "name": "rescall-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "react-google-maps": "^8.2.0",
+    "satori-rtm-sdk": "^1.1.1"
+  }
+}
