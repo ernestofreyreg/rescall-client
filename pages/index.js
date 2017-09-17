@@ -160,10 +160,10 @@ const PageHeader = () => (
 const initializeRTM = (dispatcher) => {
   const rtm = new RTM('wss://og3ayb2g.api.satori.com', 'D364dDfea10C2F3eede8e5DE92e3A88B')
   const channel = rtm.subscribe(
-    'disrupt',
+    'disrupt2017',
     RTM.SubscriptionMode.SIMPLE,
     {
-      filter: 'SELECT * FROM `disrupt` WHERE `type` = "dashboard" '
+      filter: 'SELECT * FROM `disrupt2017` WHERE `type` = "dashboard" '
     }
   )
 
